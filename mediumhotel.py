@@ -56,10 +56,10 @@ hotel=[
 def print_room_status ():
     #print(hotel)
     for guest_list1 in hotel:
-       # print(guest_list1)
+    # print(guest_list1)
 
-       for guest_list1rooms in guest_list1.keys():
-           #print(guest_list1rooms,guest_list1[guest_list1rooms])
+        for guest_list1rooms in guest_list1.keys():
+#print(guest_list1rooms,guest_list1[guest_list1rooms])
             if guest_list1[guest_list1rooms]: 
                 print(guest_list1rooms,guest_list1[guest_list1rooms]['guest'])
             else:
