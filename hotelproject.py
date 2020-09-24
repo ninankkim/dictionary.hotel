@@ -1,6 +1,6 @@
 #First repo commit
 hotel = {
-     '101': {
+    '101': {
         'guest': {
             'name': 'Elliot Alderson',
             'phone': 8675309
@@ -12,7 +12,7 @@ hotel = {
         'guest': {
             'name': 'Darlene Alderson',
             'phone': 4567890
-         }
+        }
     },
     '105': {},
 }
@@ -52,6 +52,15 @@ def check_out(room):
     else:
         print('The room is empty, nobody needs to be checked out.')
         return True
+
+
+
+
+
+
+
+
+
 
 
 
